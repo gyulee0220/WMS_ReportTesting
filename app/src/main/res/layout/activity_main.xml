@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="추가 신고 사항 입력"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/Reporting"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="카테고리 선택"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+    <RadioGroup
+        android:id="@+id/radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+            <RadioButton
+                android:id="@+id/categoty1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="소란행위" />
+
+            <RadioButton
+                android:id="@+id/categoty2"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="흡연" />
+
+            <RadioButton
+                android:id="@+id/categoty3"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="쓰레기" />
+
+            <RadioButton
+                android:id="@+id/categoty4"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="기물파손" />
+            <RadioButton
+                android:id="@+id/categoty5"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="음식물섭취" />
+
+            <RadioButton
+                android:id="@+id/categoty6"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="자리오래비움" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/ReportTransper"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="전송"/>
+
+</LinearLayout>
